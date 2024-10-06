@@ -1,0 +1,56 @@
+# # Usage: pip install -r requirements.txt
+
+# # Base ----------------------------------------
+# matplotlib>=3.2.2
+# numpy>=1.18.5,<1.24.0
+# keras
+# opencv-python>=4.1.1
+# Pillow>=7.1.2
+# PyYAML>=5.3.1
+# requests>=2.23.0
+# scipy>=1.4.1
+# torch>=1.7.0,!=1.12.0
+# torchvision>=0.8.1,!=0.13.0
+# tqdm>=4.41.0
+# protobuf<4.21.3
+# ipython
+# # Logging -------------------------------------
+# tensorboard>=2.4.1
+# # wandb
+
+# # Plotting ------------------------------------
+# pandas>=1.1.4
+# seaborn>=0.11.0
+
+# # Export --------------------------------------
+# # coremltools>=4.1  # CoreML export
+# # onnx>=1.9.0  # ONNX export
+# # onnx-simplifier>=0.3.6  # ONNX simplifier
+# # scikit-learn==0.19.2  # CoreML quantization
+# tensorflow>=2.4.1  # TFLite export
+# # tensorflowjs>=3.9.0  # TF.js export
+# # openvino-dev  # OpenVINO export
+
+# # Extras --------------------------------------
+# ipython  # interactive notebook
+# psutil  # system utilization
+# thop  # FLOPs computation
+# # albumentations>=1.0.3
+# # pycocotools>=2.0  # COCO mAP
+# # roboflow
+argparse
+torch==2.4.1
+torchvision==0.19.1
+opencv-python==4.10.0.84
+numpy==1.24.3
+matplotlib==3.7.2
+Pillow==10.0.0
+keras==2.14.0
+IPython==8.14.0
+tensorboard==2.14.1
+tensorboard-data-server==0.7.1
+tensorflow==2.14.0
+tensorflow-estimator==2.14.0
+tensorflow-intel==2.14.0
+tensorflow-io-gcs-filesystem==0.31.0
+ultralytics==8.2.96          # YOLOv7-related utility
